@@ -25,6 +25,7 @@ Change Log
 - Credits and Collaborations
 _ Eugene Monnier
 _ JIm
+_ Robert nielson
 
 
 - SET UP REPO:
@@ -197,6 +198,31 @@ Start time:
 Finish time: 
 
 Actual time needed to complete: _____
+
+## lab-08
+- FEATURE 1
+Install and require the NPM PostgreSQL package pg in your server.js file.
+Add an environment variable to your server named DATABASE_URL, and use it appropriately in your code.
+- Mac users: postgres://localhost:5432/DBNAME
+- Windows and Linux users: postgres://USER:PASSWORD@DOMAIN:PORT/DBNAME (You should have retained the user/password from the pre-work for this course.)
+Start the express server only after the database connection is established.
+Add an item
+Table Creation
+Delete
+0%
+Create a file called schema.sql which contains correct SQL queries to drop all of your tables and create them, if they do not already exist. All tables should be created in the same database.
+Execute this file from the command line with the following syntax: psql -d <database-name> -f <path/to/filename>
+
+Number and name of feature: Feature 1
+
+Estimate of time needed to complete: 1:30
+
+Start time: 9:20
+
+Finish time: 10:50
+
+Actual time needed to complete: _____
+
 
 
 
